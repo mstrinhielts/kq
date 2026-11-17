@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MS Trinh English Center</title>
+<script>
+// Chuyen tiep: kq.mstrinhielts.com/<ma_file>  ->  file tren Google Drive cua trung tam
+var id = location.pathname.replace(/^\/+|\/+$/g, '');
+if (/^[A-Za-z0-9_-]{20,80}$/.test(id)) {
+  location.replace('https://drive.google.com/file/d/' + id + '/view');
+}
+</script>
+</head>
+<body style="font-family:Arial,sans-serif;text-align:center;padding:40px 16px;color:#222">
+<h2 style="color:#C8102E;margin:0">MS TRINH</h2>
+<div style="color:#1E8E3E;font-weight:bold">English Center</div>
+<p>Đang mở kết quả học tập của con...</p>
+<p style="font-size:14px;color:#666">Nếu trang không tự mở, Quý phụ huynh vui lòng liên hệ Hotline 0966 802 457.</p>
+</body>
+</html>
